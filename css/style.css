@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.main_header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #4f4f4f;
+    z-index: 1;
+    background-color: #e5e6e7;
+}
+.h_inner{
+    width: 100%;
+    height: 108px;
+    padding:34px 44px;
+    display: flex;
+    align-items: center
+
+}
+.mainlinks{
+    position: absolute;
+    left: 164px;
+}
+
+.mainlinks ul li{
+ list-style-type: none;
+display: inline-block;
+padding-right: 15px;
+}
+.mainlinks ul li a{
+    text-decoration: none;
+    color: #4f4f4f;
+    font-size: 13px;
+    font-family: 'silkaregular',sans-serif;
+    
+    
+}
+.mainlinks ul li a:hover{
+    color:#d3341a;
+}
+.h-icons{
+    position: absolute;
+    right: 44px;
+}
+.h-icons img{
+    padding-left: 30px;
+}
+.hero-content{
+    width: 100%;
+    background-color: #e5e6e7;
+  
+    top: 108px;
+}
+.container{
+    width: 100%;
+    padding:34px 44px;
+    display: flex;
+    align-items: center
+
+}
+.left-content{
+    width: 40%;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-left: 48px;
+   
+}
+.left-content h1{
+    
+    font-size: 3.9rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 25px;
+    color: #292829;
+}
+.left-content p{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.btn{
+    background-color: #d3341a;
+    color: #ffffff;
+    display: inline-block;
+    padding: 13px 20px;
+    font-size: 14px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #000;
+    
+}
+.right-content{
+    width: 60%;
+    position: relative;
+    left:44px;
+   
+}
+.main_b{
+    width: 100%;
+    padding: 34px 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 49%;
+    min-height: 670px;
+    background-color: #d3341a;
+    background-image: url(../images/asset\ 26.jpeg);
+    background-size: cover;
+}
+.left-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 50px 30px 30px;
+
+    
+}
+.left-cont h6{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.left-cont h3{
+    margin-bottom: 4px;
+    font-size: 35px;
+    color: #ffffff;
+
+}
+.right{
+    width:49%;
+    min-height: 670px;
+    background-color: #d3341a;
+    background-image: url(../images/right-pic.jpeg);
+    background-size: cover;
+}
+.nbtn{
+    padding: 15px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 30px;
+}
+.nbtn:hover{
+    background-color: #d3341a;
+    color: #ffffff;
+}
+.w100{
+    width: 100%;
+    padding: 34px 44px;
+}
+.w100 h4{
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.w100-inner{
+    display: flex;
+    justify-content: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16.66%;
+    height: auto;
+    padding: 10px;
+}
+.product img{
+    width: 100%;
+
+}
+.m_content{
+    width: 100%;
+    height: auto;
+}
+.t_col{
+    background-color: #e5e6e7;
+}
+.in_left{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+ 
+}
+.in_left h1{
+    margin-bottom: 23px;
+    font-size:40px ;
+}
+.in_left p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.in_right{
+    width: 60%;
+    min-height: 320px;
+    background-image: url(../images/choose-illustration.png)  ;
+    background-size: contain;
+    background-position: contain;
+   
+}
+.nbtn01{
+ 
+    background-color: #000;
+    color: #ffffff;
+    width: 130px;
+    padding: 15px;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.nbtn01:hover{
+    background-color: #d3341a;
+    color: #ffffff;
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mb{
+    margin-bottom: 30px;
+}
+.pt{
+    padding-top: 150px;
+}
+.f-cont{
+    width: 100%;
+    height: auto;
+    background-color: #292829;
+    color: #fff;
+}
+.cont-01{
+    width: 37%;
+    padding: 30px;
+}
+.cont-02{
+    width: 48%;
+    padding: 30px;
+}
+.cont-02 img{
+    max-width: 100%;
+}
+.cont-01 h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.775rem;
+    color: #ffffff;
+}
+.cont-01 h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.375rem;
+}
+.cont-01 p{
+    font-size: 20px;
+    line-height: 32px;
+}
+.footer{
+    width: 100%;
+    background-color: #e5e6e7;
+}
+.foot-col{
+    width: 25%;
+    padding-right: 2%;
+}
+.foot-col ul li{
+    list-style-type: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin: 0 0 25px;
+
+}
+.foot-col ul li a{
+border-bottom: 1px solid transparent;
+}
+.foot-col ul li {
+    display: flex;
+    align-items: center;
+}
+.f-form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.f-head{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+.f-form input{
+    font-size: 48px;
+    height: 55px;
+    line-height: 1.08;
+    width: 610px;
+    padding: 0;
+    color: #707070;
+    border: 0;
+    font-weight: 700;
+    background-color: #e5e6e7;
+    padding: 10px;
+    
+}
+ input[type=checkbox]{
+    width: 24px;
+    height: 24px;
+    background-color: #e5e6e7!important;
+    border: 1px solid #707070;
+    padding-right: 3px;
+}
+ input[type=checkbox]:aftetr{
+    content:" ";
+    width: 24px;
+    height: 24px;
+    background-color: #000000;
+    color: white;
+   
+   
+}
+.f-form label{
+    padding-left:10px ;
+}
+.f-form span{
+    padding-left: 100px;
+}
+button{
+    min-width: 99px;
+    height: 44px;
+    background: #d0d0d0;
+    color: #707070;
+    font-size: 14px;
+    margin-left: 20px;
+    padding: 0 10px;
+    border:0;
+}
+.b_icons{
+    position: relative;
+    max-width: 40%;
+   
+}
+.b_icons img{
+ padding-right:30px
+   
+    
+}
+.b_nav ul li{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+}
+.a_item{
+    align-items: center;
+}
+.a_center{
+    width: 100%;
+    padding: 0 44px;
+    margin-top: 30px;
+
+}
+.a_center p{
+    text-align:right ;
+}
+.foot-col ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.foot-col ul li a:hover{
+    text-decoration: underline;
+    line-height: 1;
+}
